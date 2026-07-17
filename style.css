@@ -1,0 +1,58 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://uploads.onecompiler.io/444u4zhgq/1784311346194/wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  background-image: url(https://uploads.onecompiler.io/444u4zhgq/1784311537397/wall%201.jpg);
+  border: 2px rgb(86, 86, 86) solid;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  color: rgb(234, 234, 234);
+}
+input{
+  width: 250px;
+  height: 30px;
+  border: 2px rgb(86, 86, 86) solid;
+  border-radius: 10px;
+  color: rgb(86, 86, 86);
+  font-weight: bold;
+}
+input:hover{
+  border: 2px rgb(234, 234, 234) solid;
+  color: rgb(250, 248, 248);
+  background-color: rgb(86, 86, 86);
+}
+button{
+  border: 2px rgb(86, 86, 86) solid;
+  color: rgb(86, 86, 86);
+  background-color: rgb(234, 234, 234);
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+button:hover{
+  border: 2px rgb(234, 234, 234) solid;
+  color: rgb(250, 248, 248);
+  background-color: rgb(86, 86, 86);
+}
+h1{
+  text-shadow: 3px -3px 0px rgba(5, 5, 5, 0.717);
+}
+#result {
+  margin-top: 30px;
+  font-size: 18px;
+  border: 2px rgb(86, 86, 86) solid;
+  color: rgb(86, 86, 86);
+  background-color: rgb(234, 234, 234);
+  text-align: left;
+  border-radius: 10px
+}
